@@ -52,6 +52,10 @@
             "Prometheus": {
               "target": "Package",
               "version": "[1.0.0-alpha5, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.2.1, )"
             }
           },
           "imports": [

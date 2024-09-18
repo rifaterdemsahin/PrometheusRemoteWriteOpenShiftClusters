@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrometheusRemoteWriteOpenShiftClusters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7971429d3a2cbc7c4b8f453cb2ca82d59fb593f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cf15b52e1ab099e8691f918e1af93ff34e08ca1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrometheusRemoteWriteOpenShiftClusters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrometheusRemoteWriteOpenShiftClusters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

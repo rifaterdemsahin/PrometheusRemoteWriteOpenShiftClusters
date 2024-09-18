@@ -21,3 +21,14 @@ C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpe
 C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\obj\Debug\net8.0\PrometheusRemoteWriteOpenShiftClusters.pdb
 C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\obj\Debug\net8.0\PrometheusRemoteWriteOpenShiftClusters.genruntimeconfig.cache
 C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\obj\Debug\net8.0\ref\PrometheusRemoteWriteOpenShiftClusters.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\projects\PrometheusRemoteWriteOpenShiftClusters\Code\PrometheusRemoteWriteOpenShiftClusters\bin\Debug\net8.0\Prometheus.NetStandard.dll

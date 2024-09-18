@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Prometheus" Version="1.0.0-alpha5" />
+    <PackageReference Include="prometheus-net" Version="8.2.1" />
   </ItemGroup>
 
 </Project>
