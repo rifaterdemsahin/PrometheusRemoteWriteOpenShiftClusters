@@ -22,6 +22,8 @@
 # See it inside the DockerEngine Desktop
 <img width="1728" alt="image" src="https://github.com/user-attachments/assets/b3a4a4ef-3945-4652-833c-38e9fb1c8e24">
 
-# Openshift See the Promethesus
+# Openshift CRC See the Promethesus 
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/f3fbe00d-2c11-4170-a984-81e7cd9659b7">
+
 
 # See remote writer in action
