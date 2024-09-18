@@ -24,6 +24,7 @@
 
 # Openshift CRC See the Promethesus 
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/f3fbe00d-2c11-4170-a984-81e7cd9659b7">
+<img width="1728" alt="image" src="https://github.com/user-attachments/assets/7d4709cf-2d64-4719-b817-09e9e5d22ea6">
 
 
 # See remote writer in action
