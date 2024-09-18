@@ -1,0 +1,1 @@
+oc new-app --docker-image=rifaterdemsahin/prometheusremotewriteopenshiftclusters
