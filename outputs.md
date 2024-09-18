@@ -9,3 +9,9 @@
 
 # GraphQL Prometheus Dynamic Link Libraries
 ![image](https://github.com/user-attachments/assets/12f56e02-e882-4677-85d5-da0e0f032b4e)
+
+# Running Console 
+![image](https://github.com/user-attachments/assets/bc87c9aa-0251-438b-9ec7-2209857a42ef)
+
+# Crc Started
+![image](https://github.com/user-attachments/assets/57e73f85-121f-4339-9362-ccf3640b281d)
