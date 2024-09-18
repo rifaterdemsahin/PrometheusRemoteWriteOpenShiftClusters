@@ -7,3 +7,5 @@
 # CLuster Image
 ![image](https://github.com/user-attachments/assets/d3fea96a-d38c-4bbb-839d-6c299bc2f640)
 
+# GraphQL Prometheus Dynamic Link Libraries
+![image](https://github.com/user-attachments/assets/12f56e02-e882-4677-85d5-da0e0f032b4e)
