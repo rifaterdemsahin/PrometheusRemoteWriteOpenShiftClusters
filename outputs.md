@@ -16,6 +16,9 @@
 # Crc Started
 ![image](https://github.com/user-attachments/assets/57e73f85-121f-4339-9362-ccf3640b281d)
 
+# Mac Os running it 
+<img width="1528" alt="image" src="https://github.com/user-attachments/assets/ab9e77d3-bc2f-4901-9e5e-19b9185c1e3f">
+
 
 # Openshift See the Promethesus
 
