@@ -1,5 +1,3 @@
-Here is the content for a `README.md` file for your project:
-
 ```markdown
 # 🚀 Prometheus Remote Write with .NET 🌍
 
