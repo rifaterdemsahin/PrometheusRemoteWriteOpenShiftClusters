@@ -3,9 +3,15 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 
+# Install curl and sudo in the base image
+RUN apt-get update && apt-get install -y sudo curl iputils-ping
+
 # Use the .NET SDK image for building the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
+
+# Install curl and sudo in the build stage (if needed)
+RUN apt-get update && apt-get install -y sudo curl iputils-ping
 
 # Copy the project file and restore dependencies
 COPY PrometheusRemoteWriteOpenShiftClusters/PrometheusRemoteWriteOpenShiftClusters.csproj PrometheusRemoteWriteOpenShiftClusters/
@@ -23,5 +29,12 @@ RUN dotnet publish -c Release -o /app
 # Final stage to run the application
 FROM base AS final
 WORKDIR /app
+
+# Copy the published application
 COPY --from=build /app ./
+
+# Test curl and ping within the final image
+RUN curl --version && ping -c 4 google.com
+
+# Entrypoint to run the application
 ENTRYPOINT ["dotnet", "PrometheusRemoteWriteOpenShiftClusters.dll"]
