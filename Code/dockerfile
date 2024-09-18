@@ -8,12 +8,12 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 
 # Copy the project file and restore dependencies
-COPY ["PrometheusRemoteWrite/PrometheusRemoteWrite.csproj", "PrometheusRemoteWrite/"]
-RUN dotnet restore "PrometheusRemoteWrite/PrometheusRemoteWrite.csproj"
+COPY Code/PrometheusRemoteWriteOpenShiftClusters/PrometheusRemoteWriteOpenShiftClusters.csproj Code/PrometheusRemoteWriteOpenShiftClusters/
+RUN dotnet restore Code/PrometheusRemoteWriteOpenShiftClusters/PrometheusRemoteWriteOpenShiftClusters.csproj
 
 # Copy the rest of the application code
-COPY PrometheusRemoteWrite/. ./PrometheusRemoteWrite/
-WORKDIR "/src/PrometheusRemoteWrite"
+COPY Code/PrometheusRemoteWriteOpenShiftClusters/. Code/PrometheusRemoteWriteOpenShiftClusters/
+WORKDIR /src/Code/PrometheusRemoteWriteOpenShiftClusters
 
 # Publish the application
 RUN dotnet publish -c Release -o /app
@@ -22,4 +22,4 @@ RUN dotnet publish -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app ./
-ENTRYPOINT ["dotnet", "PrometheusRemoteWrite.dll"]
+ENTRYPOINT ["dotnet", "PrometheusRemoteWriteOpenShiftClusters.dll"]
